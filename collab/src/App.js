@@ -10,7 +10,19 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import TestSearchBar from './TestSearchBar.js'
+import TestSearchBar from './TestSearchBar.js';
+import { createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+   primary: {
+     main: '#ada4eb',
+   },
+   secondary: {
+     main: '#ada4eb',
+   },
+ },
+});
 
 function App() {
   return (

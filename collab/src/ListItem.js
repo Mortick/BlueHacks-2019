@@ -1,8 +1,8 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
+import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ItemPage from './ItemPage';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
@@ -27,20 +27,20 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function MediaControlCard() {
+export default function SimpleCard() {
   const classes = useStyles();
-  const theme = useTheme();
+
 
   return (
     <Link to = 'ItemPage'>
     <Card className={classes.card}>
-    <CardContent className={classes.side}>
+    <CardContent>
       <img src={Tempimage} alt="temp1" width="110vw"/>
     </CardContent>
       <div className={classes.details}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5">
-            Name of antibody
+            Antibody Name
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
             Amount: 5ul <br/>

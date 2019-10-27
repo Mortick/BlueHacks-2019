@@ -13,6 +13,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import ItemPage from './ItemPage';
 import { createMuiTheme } from '@material-ui/core/styles';
+import TestFilter from './TestFilter.js';
 
 const theme = createMuiTheme({
   palette: {
@@ -71,9 +72,9 @@ const useStyles = makeStyles(theme => ({
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-      width: 150,
+      width: 500,
       '&:focus': {
-        width: 300,
+        width: 500,
       },
     },
   },
@@ -132,9 +133,9 @@ export default function SearchAppBar() {
               />
             </div>
           </Toolbar>
-          
-          <Toolbar style={{backgroundColor: "#FFFFFF"}}>
 
+          <Toolbar style={{backgroundColor: "#FFFFFF"}}>
+            <TestFilter/>
           </Toolbar>
         </AppBar>
         </CardContent>
