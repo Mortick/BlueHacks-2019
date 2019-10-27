@@ -132,6 +132,10 @@ export default function SearchAppBar() {
               />
             </div>
           </Toolbar>
+          
+          <Toolbar style={{backgroundColor: "#FFFFFF"}}>
+
+          </Toolbar>
         </AppBar>
         </CardContent>
       </div>

@@ -6,6 +6,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ItemPage from './ItemPage';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import Tempimage from './testpic1.JPG'
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -34,9 +35,7 @@ export default function MediaControlCard() {
     <Link to = 'ItemPage'>
     <Card className={classes.card}>
     <CardContent className={classes.side}>
-      <Typography component="h5" variant="h5">
-        A pic goes here
-      </Typography>
+      <img src={Tempimage} alt="temp1" width="110vw"/>
     </CardContent>
       <div className={classes.details}>
         <CardContent className={classes.content}>
@@ -45,6 +44,7 @@ export default function MediaControlCard() {
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
             Amount: 5ul <br/>
+            Expiration Date: 09/15/21 <br/>
             Price: $100 <br/>
             blah blah blah blah blah blah idk what features should go here
           </Typography>
