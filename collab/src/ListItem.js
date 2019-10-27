@@ -18,9 +18,6 @@ const useStyles = makeStyles(theme => ({
   content: {
     flex: '1 0 auto',
   },
-  cover: {
-    width: 151,
-  },
   controls: {
     display: 'flex',
     alignItems: 'center',
@@ -36,7 +33,7 @@ export default function MediaControlCard() {
   return (
     <Link to = 'ItemPage'>
     <Card className={classes.card}>
-    <CardContent className={classes.content}>
+    <CardContent className={classes.side}>
       <Typography component="h5" variant="h5">
         A pic goes here
       </Typography>
