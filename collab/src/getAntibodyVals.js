@@ -12,7 +12,7 @@ export default function getAntiBodyValues (subject){
     if (subject === "AntiBody A"){
         values.name = "Imunoglobulin A (IgA)";
         values.expiration = "12/30/2019";
-        values.labName = "Bost University Research";
+        values.labName = "Boston University Research";
         values.quantity = "25ul";
         values.price = "$125";
         values.info = "Low levels occur in some types of leukemia, kidney damage and problems with the intestines. High levels present with certain autoimmune disorders. ";
@@ -23,7 +23,7 @@ export default function getAntiBodyValues (subject){
     else if (subject === "AntiBody B"){
         values.name = "Immunoglobulin G (IgG)";
         values.expiration = "08/30/2020";
-        values.labName = "John Hopkins Research La";
+        values.labName = "John Hopkins Research Lab";
         values.quantity = "5ul";
         values.price = "$225";
         values.info = "The most abundant type of antibody, is found in all body fluids and protects against bacterial and viral infections. High levels may mean chronic infections such as AIDS, multiple myeloma and multiple sclerosis. ";
@@ -56,7 +56,7 @@ export default function getAntiBodyValues (subject){
     else if (subject === "AntiBody E"){
         values.name = "Immunoglobulin D (IgD)";
         values.expiration = "011/30/2024";
-        values.labName = "University of Michigan";
+        values.labName = "University of Michigan Research";
         values.quantity = "5ul";
         values.price = "$410";
         values.info = "Present in blood, least understood antibody. Low levels don’t seem to present clinical signs and symptoms";

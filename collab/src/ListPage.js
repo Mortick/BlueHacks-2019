@@ -1,5 +1,9 @@
 import React from 'react';
 import ListItem from './ListItem'
+import ListItemB from './ListItemB'
+import ListItemC from './ListItemC'
+import ListItemD from './ListItemD'
+import ListItemE from './ListItemE'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
@@ -43,7 +47,7 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <Link to = 'ItemPageB'>  <ListItem/> </Link>
+          <Link to = 'ItemPageB'>  <ListItemB/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
@@ -51,7 +55,7 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <Link to = 'ItemPageC'>  <ListItem/> </Link>
+          <Link to = 'ItemPageC'>  <ListItemC/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
@@ -59,14 +63,14 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <Link to = 'ItemPageD'>  <ListItem/> </Link>
+          <Link to = 'ItemPageD'>  <ListItemD/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <Link to = 'ItemPageE'>  <ListItem/> </Link>
+          <Link to = 'ItemPageE'>  <ListItemE/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
