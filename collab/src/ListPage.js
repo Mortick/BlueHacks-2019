@@ -3,6 +3,7 @@ import ListItem from './ListItem'
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -34,7 +35,7 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <ListItem/>
+        <Link to = 'ItemPage'>  <ListItem/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
@@ -42,7 +43,7 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <ListItem/>
+          <Link to = 'ItemPageB'>  <ListItem/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
@@ -50,7 +51,7 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <ListItem/>
+          <Link to = 'ItemPageC'>  <ListItem/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
@@ -58,7 +59,14 @@ export default function AutoGrid() {
       <Grid container spacing={3}>
       <Grid item xs={1}></Grid>
         <Grid item xs>
-          <ListItem/>
+          <Link to = 'ItemPageD'>  <ListItem/> </Link>
+        </Grid>
+      <Grid item xs={1}></Grid>
+      </Grid>
+      <Grid container spacing={3}>
+      <Grid item xs={1}></Grid>
+        <Grid item xs>
+          <Link to = 'ItemPageE'>  <ListItem/> </Link>
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>

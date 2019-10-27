@@ -41,7 +41,6 @@ export default function SimpleCard() {
 
 
   return (
-    <Link to = 'ItemPage'>
     <Card className={classes.card}>
     <CardContent>
       <img src={Tempimage} alt="temp1" width="110vw"/>
@@ -60,6 +59,5 @@ export default function SimpleCard() {
         </CardContent>
       </div>
     </Card>
-    </Link>
   );
 }

@@ -34,6 +34,10 @@ function App() {
       <div> {/*these are every PAGE that goes on the site. If you want something that is on every page, add as a div around*/}
         <Route path='/ListPage' component={ListPage} />
         <Route path='/ItemPage' component={ItemPage} />
+        <Route path='/ItemPageB' component={ItemPage} />
+        <Route path='/ItemPageC' component={ItemPage} />
+        <Route path='/ItemPageD' component={ItemPage} />
+        <Route path='/ItemPageE' component={ItemPage} />
         <Route path='/Home' component={Home} />
       </div>
     </div>
