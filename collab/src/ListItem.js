@@ -6,7 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import ItemPage from './ItemPage';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
-import Tempimage from './testpic1.JPG'
+import Tempimage from './aBlue.png'
 
 const useStyles = makeStyles(theme => ({
   card: {

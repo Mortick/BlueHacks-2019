@@ -30,12 +30,12 @@ function App() {
     <div>
     {/*ANYTHING HERE WILL BE EVERYWHERE*/}
     <TestSearchBar/>
-    <ItemPage name="product"/>
     <ListPage/>
       <div> {/*these are every PAGE that goes on the site. If you want something that is on every page, add as a div around*/}
         <Route path='/ListPage' component={ListPage} />
         <Route path='/ItemPage' component={ItemPage} />
       </div>
+      <ItemPage name="product"/>
     </div>
     </BrowserRouter>
   );
