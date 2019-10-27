@@ -18,6 +18,7 @@ function App() {
     <div>
     {/*ANYTHING HERE WILL BE EVERYWHERE*/}
     <TestSearchBar/>
+    <ItemPage name="product"/>
     <ListPage/>
       <div> {/*these are every PAGE that goes on the site. If you want something that is on every page, add as a div around*/}
         <Route path='/ListPage' component={ListPage} />
