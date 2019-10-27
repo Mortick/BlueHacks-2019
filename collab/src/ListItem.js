@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import ItemPage from './ItemPage';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Tempimage from './aBlue.png'
+import Grid from '@material-ui/core/Grid';
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -24,6 +25,14 @@ const useStyles = makeStyles(theme => ({
     alignItems: 'center',
     paddingLeft: theme.spacing(1),
     paddingBottom: theme.spacing(1),
+  },
+  root: {
+    flexGrow: 1,
+  },
+  paper: {
+    padding: theme.spacing(2),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
   },
 }));
 

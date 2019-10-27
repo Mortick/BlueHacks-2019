@@ -13,6 +13,11 @@ const useStyles = makeStyles(theme => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  details: {
+    display: 'flex',
+    flexDirection: 'row',
+    width: '100vw',
+  },
 }));
 
 export default function AutoGrid() {
@@ -57,7 +62,7 @@ export default function AutoGrid() {
         </Grid>
       <Grid item xs={1}></Grid>
       </Grid>
-      
+
     </div>
   );
 }
