@@ -38,17 +38,18 @@ export default function MediaControlCard() {
     <Card className={classes.card}>
     <CardContent className={classes.content}>
       <Typography component="h5" variant="h5">
-        Name of Antibody
+        A pic goes here
       </Typography>
     </CardContent>
       <div className={classes.details}>
         <CardContent className={classes.content}>
           <Typography component="h5" variant="h5">
-            short
+            Name of antibody
           </Typography>
           <Typography variant="subtitle1" color="textSecondary">
-            but this is loooooooooooooooooooooonnnnnnnnnnnnnnggggggggggggggggggggggg <br/>
-            and here is another line
+            Amount: 5ul <br/>
+            Price: $100 <br/>
+            blah blah blah blah blah blah idk what features should go here
           </Typography>
         </CardContent>
       </div>

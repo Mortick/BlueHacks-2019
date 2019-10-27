@@ -7,6 +7,7 @@ import InputBase from '@material-ui/core/InputBase';
 import { fade, makeStyles } from '@material-ui/core/styles';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
+import CollabLogo from './logo.png';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -67,7 +68,7 @@ export default function SearchAppBar() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar style={{backgroundColor: "#ADA4EB"}}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -76,9 +77,7 @@ export default function SearchAppBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography className={classes.title} variant="h6" noWrap>
-            ColLAB
-          </Typography>
+          <img src={CollabLogo} alt="colLAB" width="300px"/>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
