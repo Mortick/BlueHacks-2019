@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
 import ListPage from './ListPage';
 import ItemPage from './ItemPage';
+import SearchAppBar from './searchAppBar';
 import {
   BrowserRouter,
   Switch,
@@ -15,6 +17,7 @@ function App() {
     <BrowserRouter>
     <div>
     {/*ANYTHING HERE WILL BE EVERYWHERE*/}
+    <SearchAppBar/>
     <ListPage/>
       <div> {/*these are every PAGE that goes on the site. If you want something that is on every page, add as a div around*/}
         <Route path='/ListPage' component={ListPage} />
