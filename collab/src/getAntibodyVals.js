@@ -26,6 +26,7 @@ export default function getAntiBodyValues (subject){
         values.labName = "John Hopkins Research Lab";
         values.quantity = "5ul";
         values.price = "$225";
+        values.info = "The most abundant type of antibody, is found in all body fluids and protects against bacterial and viral infections. High levels may mean chronic infections such as AIDS, multiple myeloma and multiple sclerosis. ";
 
         return values;
     }
@@ -36,6 +37,7 @@ export default function getAntiBodyValues (subject){
         values.labName = "MIT Research Lab";
         values.quantity = "15ul";
         values.price = "$525";
+        values.info = "Found in blood, first antibody to be present at the site of an infection. Present in high levels in new infections such as parasitic infections and viral infections. ";
 
         return values;
     }
@@ -46,6 +48,7 @@ export default function getAntiBodyValues (subject){
         values.labName = "University of PittsBurgh Research";
         values.quantity = "10ul";
         values.price = "$310";
+        values.info = "Associated with allergic reactions (when the immune system overreacts to environmental antigens such as pollen or pet dander). High levels represent parasitic infection, asthma, allergies and atopic dermatitis. ";
 
         return values;
     }
@@ -56,6 +59,7 @@ export default function getAntiBodyValues (subject){
         values.labName = "Carnegie Mellon Research";
         values.quantity = "5ul";
         values.price = "$910";
+        values.info = "Present in blood, least understood antibody. Low levels don’t seem to present clinical signs and symptoms";
 
         return values;
     }

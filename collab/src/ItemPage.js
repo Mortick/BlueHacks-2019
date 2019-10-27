@@ -101,7 +101,7 @@ export default function SimpleContainer() {
           </div>
           <font color="white">........</font>
           <Paper className={classes.paper2}>
-            <Typography variant="h5">{name}</Typography> <br/>
+            <Typography variant="h3"><b>{name}</b></Typography> <br/>
             <Typography variant="h5">{lab}</Typography> <br/>
             <Typography variant="h5">Expiration: {expiration}</Typography><br/>
             <Typography variant="h5">Quantity: {quantity}</Typography><br/>
