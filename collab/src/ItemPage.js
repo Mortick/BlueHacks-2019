@@ -4,11 +4,7 @@ import ListItem from './ListItem'
 export default function SimpleContainer() {
   return (
     <div>
-    <ListItem/>
-    <br/>
-    <ListItem/>
-    <br/>
-    <ListItem/>
+    Here is more info on the item
     </div>
   );
 }
