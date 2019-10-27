@@ -1,0 +1,20 @@
+export const antibodies = [
+  "BrdU Antibody",
+  "Caspase 3 Antibody",
+  "CD133 Antibody",
+  "CD3 Antibody",
+  "CD31 Antibody",
+  "CD34 Antibody",
+  "CD4 Antibody",
+  "CD44 Antibody",
+  "CD45 Antibody",
+  "CD47 Antibody",
+  "CD68 Antibody",
+  "GFP Antibody",
+  "iNOS Antibody",
+  "Insulin Antibody",
+  "LC3 Antibody",
+  "LGR5 Antibody",
+  "mCherry Antibody",
+  "NeuN Antibody1"
+];
