@@ -102,7 +102,7 @@ export default function SimpleContainer() {
           <font color="white">........</font>
           <Paper className={classes.paper2}>
             <Typography variant="h3"><b>{name}</b></Typography> <br/>
-            <Typography variant="h5">{lab}</Typography> <br/>
+            <Typography variant="h4"><i>{lab}</i></Typography> <br/>
             <Typography variant="h5">Expiration: {expiration}</Typography><br/>
             <Typography variant="h5">Quantity: {quantity}</Typography><br/>
             <Typography variant="h5">Price: {price}</Typography><br/>

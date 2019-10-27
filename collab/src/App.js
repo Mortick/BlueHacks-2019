@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 import TestSearchBar from './TestSearchBar.js';
 import { createMuiTheme } from '@material-ui/core/styles';
+import Home from './Home';
 
 const theme = createMuiTheme({
   palette: {
@@ -30,12 +31,11 @@ function App() {
     <div>
     {/*ANYTHING HERE WILL BE EVERYWHERE*/}
     <TestSearchBar/>
-    <ListPage/>
       <div> {/*these are every PAGE that goes on the site. If you want something that is on every page, add as a div around*/}
         <Route path='/ListPage' component={ListPage} />
         <Route path='/ItemPage' component={ItemPage} />
+        <Route path='/Home' component={Home} />
       </div>
-      <ItemPage name="product"/>
     </div>
     </BrowserRouter>
   );
