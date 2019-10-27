@@ -14,6 +14,7 @@ import CardContent from '@material-ui/core/CardContent';
 import ItemPage from './ItemPage';
 import { createMuiTheme } from '@material-ui/core/styles';
 import TestFilter from './TestFilter.js';
+import AccountCircle from '@material-ui/icons/AccountCircle';
 
 const theme = createMuiTheme({
   palette: {
@@ -132,6 +133,8 @@ export default function SearchAppBar() {
                 inputProps={{ 'aria-label': 'search' }}
               />
             </div>
+             <div style={{flex:1}}></div>
+            <AccountCircle style={{ color: '#ada4eb', fontSize:"50px" }}/>
           </Toolbar>
 
           <Toolbar style={{backgroundColor: "#FFFFFF"}}>
