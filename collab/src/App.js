@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import ListPage from './ListPage'
+import SearchAppBar from './searchAppBar';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+        <SearchAppBar/>
         <ListPage/>
         </a>
       </header>
