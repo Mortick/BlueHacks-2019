@@ -40,10 +40,10 @@ const useStyles = makeStyles(theme => ({
 export default function SimpleCard() {
   const classes = useStyles();
   const values = getAntiBodyValues("Antibody A");
-  values.name = "Imunoglobulin A (IgA)";
-  values.expiration = "12/30/2019";
-  values.labName = "Bost University Research";
-  values.quantity = "25ul";
+  values.name = "Immunoglobulin M (IgM)";
+  values.expiration = "05/30/2021";
+  values.labName = "MIT Research Lab";
+  values.quantity = "15ul";
   values.price = "$125";
 
   return (

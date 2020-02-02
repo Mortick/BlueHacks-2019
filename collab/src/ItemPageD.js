@@ -14,7 +14,7 @@ class itemPage extends Component {
     super(props);
 
     this.state = {
-      itemName: "Antibody A"
+      itemName: "Antibody D"
     };
 
     SimpleContainer();
@@ -48,7 +48,7 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const values = getAntibodyValues("AntiBody A");
+const values = getAntibodyValues("AntiBody D");
 
 export default function SimpleContainer() {
   const classes = useStyles();

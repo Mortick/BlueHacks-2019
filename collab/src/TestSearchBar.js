@@ -15,6 +15,7 @@ import ItemPage from './ItemPage';
 import { createMuiTheme } from '@material-ui/core/styles';
 import TestFilter from './TestFilter.js';
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 
 const theme = createMuiTheme({
   palette: {
@@ -111,7 +112,9 @@ export default function SearchAppBar() {
         <CardContent className={classes.content}>
         <AppBar position="static">
           <Toolbar style={{backgroundColor: "#FFFFFF"}}>
+          <Link to = 'Home'>
             <img src={CollabLogo} alt="colLAB" width="200px"/>
+          </Link>
             <IconButton
               edge="start"
               className={classes.menuButton}

@@ -79,7 +79,14 @@ const Manufacturer = [
   'Company D',
 ];
 
-const SomeOtherThing = [
+const Proximity = [
+  'Company A',
+  'Company B',
+  'Company C',
+  'Company D',
+];
+
+const Price = [
   'Company A',
   'Company B',
   'Company C',
@@ -202,7 +209,7 @@ export default function MultipleSelect() {
       <FormControl>.......</FormControl>
 
       <FormControl className={classes.formControl}>
-        <InputLabel htmlFor="select-multiple-checkbox">SomeOtherThing</InputLabel>
+        <InputLabel htmlFor="select-multiple-checkbox">Proximity</InputLabel>
         <Select
           multiple
           value={personName}
@@ -211,7 +218,7 @@ export default function MultipleSelect() {
           renderValue={selected => selected.join(', ')}
           MenuProps={MenuProps}
         >
-          {SomeOtherThing.map(name => (
+          {Proximity.map(name => (
             <MenuItem key={name} value={name}>
               <Checkbox checked={personName.indexOf(name) > -1} />
               <ListItemText primary={name} />
@@ -223,7 +230,7 @@ export default function MultipleSelect() {
       <FormControl>.......</FormControl>
 
       <FormControl className={classes.formControl}>
-        <InputLabel htmlFor="select-multiple-checkbox">SomeOtherThing</InputLabel>
+        <InputLabel htmlFor="select-multiple-checkbox">Price</InputLabel>
         <Select
           multiple
           value={personName}
@@ -232,7 +239,7 @@ export default function MultipleSelect() {
           renderValue={selected => selected.join(', ')}
           MenuProps={MenuProps}
         >
-          {SomeOtherThing.map(name => (
+          {Price.map(name => (
             <MenuItem key={name} value={name}>
               <Checkbox checked={personName.indexOf(name) > -1} />
               <ListItemText primary={name} />
